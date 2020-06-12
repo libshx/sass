@@ -1,3 +1,16 @@
+$PrimaryBtn: lightblue;
+$textColor: gray;
+
 header {
 background: pink;
+display: flex;
+justify-content: center;
+color: $textColor;
+button {
+    background: $PrimaryBtn;
+}
+}
+
+.contact button {
+    background: $PrimaryBtn;
 }

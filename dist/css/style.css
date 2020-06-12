@@ -1,4 +1,19 @@
 header {
   background: pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: gray;
+}
+
+header button {
+  background: lightblue;
+}
+
+.contact button {
+  background: lightblue;
 }
 /*# sourceMappingURL=style.css.map */
