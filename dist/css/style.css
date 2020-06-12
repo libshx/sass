@@ -1,19 +1,58 @@
 header {
-  background: pink;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: gray;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #3434c5;
+  height: 100vh;
+  color: #aa3131;
 }
 
 header button {
-  background: lightblue;
+  background: rgba(212, 68, 11, 0.664);
 }
 
-.contact button {
-  background: lightblue;
+header button:hover {
+  background: blueviolet;
+}
+
+div {
+  color: #aa3131;
+}
+
+div button {
+  background: rgba(212, 68, 11, 0.664);
+}
+
+div button:hover {
+  background: #d10829;
+}
+
+.contact {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: pink;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+div {
+    color: $textColor;
+
+    button{
+        background: $PrimaryBtn;
+        &:hover{
+            background: rgb(209, 8, 41);
+            
+        }
+    }
+}

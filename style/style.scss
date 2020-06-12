@@ -1,16 +1,9 @@
-$PrimaryBtn: lightblue;
-$textColor: gray;
+@import "./variable";
+@import "./header";
+@import "./div";
 
-header {
-background: pink;
-display: flex;
-justify-content: center;
-color: $textColor;
-button {
-    background: $PrimaryBtn;
-}
-}
 
-.contact button {
-    background: $PrimaryBtn;
+
+.contact {
+    @include flexCenter(column, pink);
 }
